@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/iconn1.webp" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crop Advisory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">🌾</span>
+      <h1 data-i18n="app_title">Crop Advisory</h1>
+    </div>
+    <div class="header-actions">
+      <label class="lang-label" for="lang-select" data-i18n="language">Language</label>
+      <select id="lang-select" class="select">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="kn">ಕನ್ನಡ</option>
+      </select>
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">🌓</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="root"></div>
+  </main>
+
+  <footer class="app-footer">
+    <h2 id="site-quote"><em>AGRICULTURE is a field of unlimited POSSIBILITIES!!</em> </h2>
+  </footer>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
